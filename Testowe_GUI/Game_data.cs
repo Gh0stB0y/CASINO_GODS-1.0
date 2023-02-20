@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Testowe_GUI
+{
+    internal class Game_data:Main_form
+    {
+        //THIS CLASS CONTAINS EVERY VITAL DATA REQUIRED TO RUN GAMES, EXAMPLE: MAXIMUM SEAT COUNT OF CURRENT
+        //TABLE, MAX VALUE OF BET ETC.. ORIGINAL DATA WILL BE STORED ON A SERVER, THIS CLASS WILL COMMUNICATE
+        //(SEND AND RECEIVE DATA) WITH SERVER. GUI WILL USE THIS CLASS' DATA TO RUN GAMES AND MENU. THIS CLASS
+        //WILL ALSO RECEIVE COMMANDS/INFO FROM GUI WCHICH WILL BE SENT TO A SERVER
+
+
+    }
+}
