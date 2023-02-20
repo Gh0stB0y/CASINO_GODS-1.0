@@ -39,7 +39,7 @@ namespace Testowe_GUI
             this.MinimumSize = new System.Drawing.Size((int)(Screen.PrimaryScreen.Bounds.Width * min_size_to_resolution_ratio), (int)(Screen.PrimaryScreen.Bounds.Height * min_size_to_resolution_ratio));
             Form_size = new Size(Main_panel.Size.Width,Main_panel.Size.Height);
             //play_music(@"F:\C#\PIERWSZY PROJEKT\Testowe_GUI\Testowe_GUI\Menu_music.wav");
-            play_music(Path.Combine(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName, "Menu_music.wav"));
+            play_music(Path.Combine(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName, "Music_menu"));
         }
         private void Main_form_Load(object sender, EventArgs e)
         {
