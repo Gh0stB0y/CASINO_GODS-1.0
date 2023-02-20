@@ -12,29 +12,26 @@ namespace Testowe_GUI
 {
     partial class Main_form : Form {
         //
-        private void Open_new_form(Form New_form, object sender)
+        private static void Open_new_form(Form New_form, Panel ths_panel, object sender)
         {
-            if (Active_form != null) { Active_form.TopMost = false; Active_form.Close(); }
-
-            Active_form = New_form;
+            if (ths_panel.Controls.Count > 0) {ths_panel.Controls.Clear(); }
             New_form.TopMost = true;
             New_form.FormBorderStyle = FormBorderStyle.FixedSingle;
             New_form.Dock = DockStyle.Fill;
-            this.Main_panel.Controls.Clear();
-            this.Main_panel.Controls.Add(New_form);
-            this.Main_panel.Tag = New_form;
+            ths_panel.Controls.Clear();
+            ths_panel.Controls.Add(New_form);
+            ths_panel.Tag = New_form;
             New_form.BringToFront();
             New_form.Show();
         }
-        private void Open_new_form(Form New_form)
+        private static void Open_new_form(Form New_form,Panel ths_panel)
         {
-            if (Active_form != null) { Active_form.TopMost = false; Active_form.Close(); }
-            Active_form = New_form;
+            if (ths_panel.Controls.Count>0) {ths_panel.Controls.Clear(); }
             New_form.TopLevel = false;
             New_form.FormBorderStyle = FormBorderStyle.None;
             New_form.Dock = DockStyle.Fill;
-            this.Main_panel.Controls.Add(New_form);
-            this.Main_panel.Tag = New_form;
+            ths_panel.Controls.Add(New_form);
+            ths_panel.Tag = New_form;
             New_form.BringToFront();
             New_form.Show();
         }

@@ -56,6 +56,7 @@ namespace Testowe_GUI.non_main_forms.non_game_forms
 
             form_size_trackbar.Minimum = basic_form.Get_min_form_size();
             form_size_label.Text = "Rozmiar okna: ";
+
         }
 
         private void settings_icon_button_Click(object sender, EventArgs e)

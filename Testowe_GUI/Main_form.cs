@@ -44,7 +44,7 @@ namespace Testowe_GUI
         private void Main_form_Load(object sender, EventArgs e)
         {
             
-            Open_new_form(new non_main_forms.non_game_forms.Non_game_forms_background(this));
+            Open_new_form(new Non_game_forms_background(this),Main_panel);
         }
 
     }

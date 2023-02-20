@@ -60,29 +60,11 @@
     <Compile Include="Main_form_methods.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="non_main_forms\non_game_forms\Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="non_main_forms\non_game_forms\Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="non_main_forms\non_game_forms\Main_Menu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="non_main_forms\non_game_forms\Main_Menu.Designer.cs">
-      <DependentUpon>Main_Menu.cs</DependentUpon>
-    </Compile>
     <Compile Include="non_main_forms\non_game_forms\Non_game_forms_background.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="non_main_forms\non_game_forms\Non_game_forms_background.Designer.cs">
       <DependentUpon>Non_game_forms_background.cs</DependentUpon>
-    </Compile>
-    <Compile Include="non_main_forms\non_game_forms\Welcome_Screen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="non_main_forms\non_game_forms\Welcome_Screen.Designer.cs">
-      <DependentUpon>Welcome_Screen.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -91,9 +73,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="non_main_forms\non_game_forms\Non_game_forms_background.resx">
       <DependentUpon>Non_game_forms_background.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="non_main_forms\non_game_forms\Welcome_Screen.resx">
-      <DependentUpon>Welcome_Screen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
