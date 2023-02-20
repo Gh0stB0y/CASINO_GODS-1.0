@@ -17,7 +17,6 @@ namespace Testowe_GUI
         static void Main()
           
         {
-            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Main_form());
