@@ -55,7 +55,7 @@ namespace Testowe_GUI.non_main_forms.non_game_forms
             setting_icon_button.Location = new Point(this.Width - Main_form.settings_icon_size_pxl, 0);
 
             form_size_trackbar.Minimum = basic_form.Get_min_form_size();
-            form_size_label.Text = "Rozmiar okna: " + form_size_trackbar.Value;
+            form_size_label.Text = "Rozmiar okna: ";
         }
 
         private void settings_icon_button_Click(object sender, EventArgs e)
